@@ -28,7 +28,7 @@ html {
 @media only screen and (min-width: 25em) {
   img {
     display: inline-block;
-    width: 50%;
+    width: 49%;
   }
 }
 
@@ -36,6 +36,10 @@ html {
   img {
     display: inline-block;
     width: 32%;
+  }
+
+  img:first-child {
+    display: none;
   }
 }
 
