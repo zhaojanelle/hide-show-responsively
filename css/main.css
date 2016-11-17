@@ -6,10 +6,10 @@
 
 html {
   box-sizing: border-box;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 
   text-align: center;
 }
@@ -18,7 +18,13 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 @media only screen and (min-width: 20em) {
+
   img {
     display: inline-block;
     width: 100%;
@@ -26,6 +32,7 @@ html {
 }
 
 @media only screen and (min-width: 25em) {
+
   img {
     display: inline-block;
     width: 49%;
@@ -33,6 +40,7 @@ html {
 }
 
 @media only screen and (min-width: 38em) {
+
   img {
     display: inline-block;
     width: 32%;
@@ -44,8 +52,14 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
   img {
     display: inline-block;
     width: 24.5%;
   }
+
+  img:first-child {
+    display: inline-block;
+  }
+
 }
